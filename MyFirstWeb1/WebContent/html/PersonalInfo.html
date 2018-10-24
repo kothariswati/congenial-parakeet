@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>PersonalInfoWithBean</title>
+</head>
+<body>
+	<form method="post" action="/MyFirstWeb1/PersonalInfo">
+		<fieldset>
+			<legend>
+				<h3>Personal info</h3>
+			</legend>
+			<table>
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" name="firstName"></input></td>
+				</tr>
+
+				<tr>
+					<td>Last Name</td>
+					<td><input type="text" name="lastName"></input></td>
+				</tr>
+				<tr>
+					<td>Middle Name</td>
+					<td><input type="text" name="middleName"></input></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="gender" value="MALE">
+						Male <input type="radio" name="gender" value="FEMALE">
+						Female</td>
+				</tr>
+				<br>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Next"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
